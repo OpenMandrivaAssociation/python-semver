@@ -46,7 +46,7 @@ export SETUPTOOLS_SCM_PRETEND_VERSION="%{version}"
 %check
 export CI=true
 export PYTHONPATH="%{buildroot}%{python_sitearch}:${PWD}"
-%{__python} -m  pytest
+pytest
 %endif
 
 %files
