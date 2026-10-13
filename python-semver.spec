@@ -3,7 +3,7 @@
 
 Name:		python-semver
 Version:	3.0.4
-Release:	2
+Release:	3
 Summary:	Python helper for Semantic Versioning (https://semver.org)
 URL:		https://github.com/python-semver/python-semver
 License:	BSD-3-Clause
@@ -12,7 +12,7 @@ Source0:	https://github.com/python-semver/python-semver/archive/refs/tags/%{vers
 BuildArch:	noarch
 BuildSystem:	python
 
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(wheel)
